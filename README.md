@@ -17,6 +17,14 @@
 - Three USB3 port, one USB-C/TB3 port
 - M.2 2280 SATA 6G Hynix SSD 256GB
 
+## [Bios setup](https://osxlatitude.com/forums/topic/8506-dell-latitude-inspiron-precision-vostro-xps-clover-guide/?tab=comments#comment-94956)
+- Set to Default, apply, 
+- Set SATA Operations to AHCI
+- Set Boot List Option to UEFI
+- Disable Secure Boot
+- Disable Wake on LAN/WWAN/WLAN
+- Disable TPM (optional)
+
 ## MacOS and bootloader prepare
 - [Download OSX](https://support.apple.com/ko-kr/HT211683)
 - [Clover r5120](https://github.com/CloverHackyColor/CloverBootloader/releases/tag/5120)
